@@ -1,7 +1,7 @@
 # 🏖 IF Travel THEN Plan (ITTP) 🏖
 
 - Travel Planner Application
-> <a href="https://kdh4646.github.io/IF_Travel_THEN_Plan_ITTP/ITTP.apk" target="_blank"><img src="https://camo.githubusercontent.com/978ff0aee4852d560d3d8d1a5e671188164351b54582da1dc4ba56617b189d76/68747470733a2f2f637573746f6d2d69636f6e2d6261646765732e64656d6f6c61622e636f6d2f62616467652f2d446f776e6c6f61642d626c75653f7374796c653d666f722d7468652d6261646765266c6f676f3d646f776e6c6f6164266c6f676f436f6c6f723d7768697465" alt="Download apk" title="Download apk" data-canonical-src="https://custom-icon-badges.demolab.com/badge/-Download-blue?style=for-the-badge&amp;logo=download&amp;logoColor=white" style="max-width: 100%;"/></a>
+> <a href="ITTP.apk" target="_blank"><img src="https://camo.githubusercontent.com/978ff0aee4852d560d3d8d1a5e671188164351b54582da1dc4ba56617b189d76/68747470733a2f2f637573746f6d2d69636f6e2d6261646765732e64656d6f6c61622e636f6d2f62616467652f2d446f776e6c6f61642d626c75653f7374796c653d666f722d7468652d6261646765266c6f676f3d646f776e6c6f6164266c6f676f436f6c6f723d7768697465" alt="Download apk" title="Download apk" data-canonical-src="https://custom-icon-badges.demolab.com/badge/-Download-blue?style=for-the-badge&amp;logo=download&amp;logoColor=white" style="max-width: 100%;"/></a>
 
 <div>
   <picture>
