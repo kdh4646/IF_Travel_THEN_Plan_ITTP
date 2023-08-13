@@ -2,9 +2,9 @@
 
 - Travel Planner Application
 
-<div>
+<div align="center">
   <picture>
-    <img align="right" src="https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white"/>
+    <img align="center" src="https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white"/>
   </picture>
   
   <picture>
