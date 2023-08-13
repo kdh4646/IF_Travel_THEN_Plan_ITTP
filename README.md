@@ -22,7 +22,7 @@ travelers more comfortable. Application’s name is “ITTP (IF: Travel THEN: Pl
 
 
 
-
+d
 
   Using Android Studio, with unique features that we did not use in the class such as
   “GPS” and “Calendar”.
