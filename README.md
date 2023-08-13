@@ -122,7 +122,7 @@ travelers more comfortable. Application’s name is “ITTP (IF: Travel THEN: Pl
     </kbd>
     .
 - Created setting options, which include changing background color and languages.
-- Opt for Google Maps as it offers user-friendly functions such as locating the fastest route and suggesting alternative methods to reach users' destination.
+- Opt for Google Maps, which offers user-friendly functions like locating the fastest route and suggesting alternative methods to reach users' destination.
 
 # 🪄 LICENSE
 
@@ -141,4 +141,3 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 ```
-
