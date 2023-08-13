@@ -79,16 +79,11 @@ travelers more comfortable. Application’s name is “ITTP (IF: Travel THEN: Pl
     - TravelEditActivity – activity for editing travel.
     - TravelLoadingActivity – activity for loading saved travel.
     - WelcomeActivity – activity for welcome screen.
-
-
-Drawable: including graphics for application icon, buttons icon and so on.
-Layout: supporting all activities with portrait/landscape mode. Used linearlayouts
-and constraintlayout.
-Values: settings preference array values, colors and styles. Also button backgrounds
-are included.
-Xml: settings preference xml file.
-Build.gradle (Module: app): added material for floating action button.
- (Need to add material for Google GPS)
+    - Drawable - including graphics for application icon, buttons icon and so on.
+    - Layout - supporting all activities with portrait/landscape mode. Used linearlayouts and constraintlayout.
+    - Values -settings preference array values, colors and styles. Also button backgrounds are included.
+    - Xml - settings preference xml file.
+    - Build.gradle (Module: app) - added material for floating action button. (Need to add material for Google GPS)
 
 
 
