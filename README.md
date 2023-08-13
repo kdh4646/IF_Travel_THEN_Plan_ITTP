@@ -2,19 +2,19 @@
 Travel Planner Application
 
 # Introduction
-  <div>
+<div>
   When people plan for the travel, they need to use multiple applications such as
   calendar to put schedule, map to find the way to the destination and so on.
   Instead of using multiple applications and swap the screen multiple times,
   combining several functions into one application that specific for travel would be
   better for people.
-  </div>
+</div>
   
-Project details #3DDC84
+Project details
+
 <picture>
-<img src="https://img.shields.io/badge/Android Studio-3DDC84?style=flat&logo=Android Studio&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Android Studio-3DDC84?style=flat&logo=Android Studio&logoColor=white"/>
 </picture>
-<img src="https://img.shields.io/badge/Android Studio-3DDC84?style=flat&logo=Android Studio&logoColor=white"/>
 
   Using Android Studio, with unique features that we did not use in the class such as
   “GPS” and “Calendar”.
