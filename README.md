@@ -1,16 +1,15 @@
 # 🏖 IF Travel THEN Plan (ITTP) 🏖
 
 - Travel Planner Application
+- 
+<picture>
+  <img hspace="50" src="https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white"/>
+</picture>
 
-<div hspace="100">
-  <picture>
-    <img align="center" src="https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white"/>
-  </picture>
-  
-  <picture>
-    <img align="center" src="https://img.shields.io/badge/Android Studio-3DDC84?style=flat&logo=Android Studio&logoColor=white"/>
-  </picture>
-</div>
+<picture>
+  <img align="center" src="https://img.shields.io/badge/Android Studio-3DDC84?style=flat&logo=Android Studio&logoColor=white"/>
+</picture>
+
 
 # 🚀 Introduction
 
