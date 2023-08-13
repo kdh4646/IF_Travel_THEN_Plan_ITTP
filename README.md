@@ -11,7 +11,9 @@ Travel Planner Application
   </div>
   
 Project details #3DDC84
-
+<picture>
+<img src="https://img.shields.io/badge/Android Studio-3DDC84?style=flat&logo=Android Studio&logoColor=white"/>
+</picture>
 <img src="https://img.shields.io/badge/Android Studio-3DDC84?style=flat&logo=Android Studio&logoColor=white"/>
 
   Using Android Studio, with unique features that we did not use in the class such as
