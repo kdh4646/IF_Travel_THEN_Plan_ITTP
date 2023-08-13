@@ -1,4 +1,4 @@
-# 🏖 IF Travel THEN Plan (ITTP)
+# 🏖 IF Travel THEN Plan (ITTP) 🏖
 
 Travel Planner Application
 
