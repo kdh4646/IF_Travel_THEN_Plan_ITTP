@@ -21,81 +21,84 @@ travelers more comfortable. Application’s name is “ITTP (IF: Travel THEN: Pl
 
 # 📖 Project details
 
+**I. Application Icon**
+  - Red Airplane picture with background color of Ivory.
 
+**II. Welcome Screen**
+  - 3 seconds of welcome screen with Application Logo.
 
-d
+**III. Main Screen**
+  - Plan button: user makes a new travel plan.
+  - Travel button: user starts a travel plan that user chosen.
+  - History button: user can see the history of finished travel.
+  - Setting button: user can either change the background color of Application or language and vibration mode.
 
-  Using Android Studio, with unique features that we did not use in the class such as
-  “GPS” and “Calendar”.
+**IV. Plan button**
+  i. User asked to enter the title. (Title should be unique, no duplicate)
+  ii. Choose the Start Date.
+  iii. Choose the End Date. (End Date only allows before or same with the
+  Start Date)
+  iv. Plan page appears with each date. User can go back/forward with the
+  buttons to change date and able to add/edit/delete plans.
+  v. After finish planning go back to Main Screen.
   
-  I. Application Icon
-    - Background color with green or blue.
-II. First Screen
-- Make button: user makes a new travel plan.
-- Start button: user starts a travel plan that he/she choose.
-- Edit button: user can edit his/her travel plans.
-- Open button: user opens travel plans that he/she made before.
-- Setting button: user can either change the background color of
-application.
-III. Click Make button
-- Calendar appears: user needs to choose specific date that he/she want to
-travel. (from/to)
-i. Choose date
-- Categories: giving user the categories that they want to choose.
-For example, eating, shopping, sightseeing, etc.
-- Put Where: This information will be used to track the
-destination on the map.
-- Make a note: after choosing categories, user can put notes
-below for specific location and so on.
-- Based on how many days user wants to travel, app provides
-each screen to put plans.
-- Example)
-For example, if a user choose date
-from 10/16/2019 to 10/18/2019
-then, 2screens need to appear that “First day plan” and user can
-choose categories “eating” with location “GMU Panera” and
-make a note “09:30 am. Salad would be nice”.
-User can put more plans.
-If done with first day plan, then go to the second day plan and
-do the same thing.
-ii. Done with plan setting
-- Ask user that he/she wants to get notification or not.
-- If yes then, choose specific time.
-User will get notification later at specific time.
-- If no then, back to the First Screen with the message that
-new travel has been made.
-IV. Click Start button
-- Travel plan list appears: user need to choose a travel plan from the list to
-start.
-If user chooses past travel plan, then the chosen
-travel plan starts with today’s date and added to
-the travel list with new timeline.
-- Travel starts: based on the plan, user will be asked to either need map or
-not.
-If user needs map, map will appear and guide user to the
-destination based on “where” information from current
-location.
-- After travel, it goes back to First Screen.
-V. Click Edit button
-- Travel plan list appears: user need to choose a travel plan from the list to
-edit.
-- Delete exist travel plan: user can delete exist travel plans.
-- After edit, it goes back to First Screen.
-VI. Click Open button
-- Travel plan list appears: user need to choose a travel plan from the list to
-open.
-- User can see the exist travel plans.
-- After open, it goes back to First Screen.
-VII. Click Setting button
-- User can change the background color of application.
-- After setting, it goes back to First Screen.
-Conclusion
-If possible, making a landscape mode of the application as well.
-The application will save information when it pauses, and travel plan will be
-saved in the database.
-It will take time to develop the application such as GPS real-time tracking, but I
-believe plenty of sources could help hopefully.
-I hope it helps the travelers more comfortable.
+**V. Travel button**
+  i. Track the lists of travel that user made.
+  ii. On Click, saved travel plans data popped up and user can fix data or
+  start the plan.
+  iii. When “START” button is clicked, GPS opens based on location address
+  that user entered, and after finishing the plan, user can set plan to
+  “DONE” status.
+  iv. After finishing all plans, travel deleted from the travel list and go to the
+  history list.
+  
+**VI. History button**
+  i. User can see finished travels.
+  ii. It shows all information of selected history. For example, when, where,
+  specific notes and whether that plan was finished or not.
+  
+**VII.Setting button**
+  i. User can change the background color. (Ivory: default, Red, Green and
+  Blue)
+  ii. User can change the language. (English: default and Korean)
+System Components
+AndroidManifest.xml – It contains multiple activities for application and
+permissions for GPS.
+Activities (java):
+AddPlanListActivity – activity for adding or editing plans.
+DatabaseOpenHelper – database helper class.
+HistoryActivity – activity for showing history.
+MainActivity – activity for main screen.
+PlanCalendarActivity – activity for calendar activity.
+PlanMakeActivity – activity for managing plans.
+PlanTitleActivity – activity for making title.
+SettingActivity – activity for settings.
+TravelActivity – activity for showing travel lists.
+TravelEditActivity – activity for editing travel.
+TravelLoadingActivity – activity for loading saved travel.
+WelcomeActivity – activity for welcome screen.
+Drawable: including graphics for application icon, buttons icon and so on.
+Layout: supporting all activities with portrait/landscape mode. Used linearlayouts
+and constraintlayout.
+Values: settings preference array values, colors and styles. Also button backgrounds
+are included.
+Xml: settings preference xml file.
+Build.gradle (Module: app): added material for floating action button.
+ (Need to add material for Google GPS)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 <img src="image1.jpg"/>
