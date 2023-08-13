@@ -100,26 +100,26 @@ travelers more comfortable. Application’s name is “ITTP (IF: Travel THEN: Pl
     <kbd>
       Database
     </kbd>
-    
-    <code>
+    ,
+    <kbd>
       GPS
-    </code>
-    
-    <code>
+    </kbd>
+    ,
+    <kbd>
       Calendar
-    </code>
-    
-    <code>
+    </kbd>
+    ,
+    <kbd>
       Cursor
-    </code>
-    
-    <code>
+    </kbd>
+    ,
+    <kbd>
       ListView
-    </code>
-
-    <code>
+    </kb>
+    ,
+    <kbd>
       Floating Action Button
-    </code>
+    </kbd>
     
 
 
