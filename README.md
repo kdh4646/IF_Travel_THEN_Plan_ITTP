@@ -16,6 +16,8 @@ Project details
   <img src="https://img.shields.io/badge/Android Studio-3DDC84?style=flat&logo=Android Studio&logoColor=white"/>
 </picture>
 
+<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"/>
+
 
 
   Using Android Studio, with unique features that we did not use in the class such as
