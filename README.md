@@ -69,26 +69,7 @@ travelers more comfortable. Application’s name is “ITTP (IF: Travel THEN: Pl
   - Activities (java)
     1. AddPlanListActivity – activity for adding or editing plans.
     2. DatabaseOpenHelper – database helper class.
-    1. HistoryActivity
-      – activity for showing history.
-    1. MainActivity
-      – activity for main screen.
-    1. PlanCalendarActivity
-      – activity for calendar activity.
-    1. PlanMakeActivity
-      – activity for managing plans.
-    1. PlanTitleActivity
-      – activity for making title.
-    8. SettingActivity
-      – activity for settings.
-    9. TravelActivity
-      – activity for showing travel lists.
-    10. TravelEditActivity
-      – activity for editing travel.
-    11. TravelLoadingActivity
-      – activity for loading saved travel.
-    12. WelcomeActivity
-      – activity for welcome screen.
+
 
 Drawable: including graphics for application icon, buttons icon and so on.
 Layout: supporting all activities with portrait/landscape mode. Used linearlayouts
