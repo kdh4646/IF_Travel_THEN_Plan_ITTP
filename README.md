@@ -12,7 +12,7 @@ Travel Planner Application
   
 Project details #3DDC84
 
-<img src="https://img.shields.io/badge/Android Studio-3DDC84?style=plastic&logo=Android Studio&logoColor=white"/>
+<img src="https://img.shields.io/badge/Android Studio-3DDC84?style=for-the-badge&logo=Android Studio&logoColor=white"/>
 
   Using Android Studio, with unique features that we did not use in the class such as
   “GPS” and “Calendar”.
