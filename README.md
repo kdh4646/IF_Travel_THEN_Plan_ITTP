@@ -1,20 +1,21 @@
 # IF_Travel_THEN_Plan_ITTP
 Travel Planner Application
-CS477
-DoHyung Kweon
-G01042427
-Course Project Proposal
+
 Introduction
-When people plan for the travel, they need to use multiple applications such as
-calendar to put schedule, map to find the way to the destination and so on.
-Instead of using multiple applications and swap the screen multiple times,
-combining several functions into one application that specific for travel would be
-better for people.
+  
+  When people plan for the travel, they need to use multiple applications such as
+  calendar to put schedule, map to find the way to the destination and so on.
+  Instead of using multiple applications and swap the screen multiple times,
+  combining several functions into one application that specific for travel would be
+  better for people.
+  
 Project details
-Using Android Studio, with unique features that we did not use in the class such as
-“GPS” and “Calendar”.
-I. Application Icon
-- Background color with green or blue.
+
+  Using Android Studio, with unique features that we did not use in the class such as
+  “GPS” and “Calendar”.
+  
+  I. Application Icon
+    - Background color with green or blue.
 II. First Screen
 - Make button: user makes a new travel plan.
 - Start button: user starts a travel plan that he/she choose.
