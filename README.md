@@ -13,6 +13,10 @@
   </picture>
 </div>
 
+![ChatGPT](https://img.shields.io/badge/chatGPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white)
+
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white"/>
+
 # 🚀 Introduction
 
 - When people plan for travel, they need to use multiple applications such as calendar
