@@ -88,8 +88,8 @@ travelers more comfortable. Application’s name is “ITTP (IF: Travel THEN: Pl
 # ✨ Story Board
   <p align="center">
     <img src="image1.jpg"/>
-<img src="image1.jpg"/>
-<img src="image1.jpg"/>
+    <img src="image2.jpg"/>
+    <img src="image3.jpg"/>
   </p>
 
 
