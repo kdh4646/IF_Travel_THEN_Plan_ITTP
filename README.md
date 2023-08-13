@@ -9,7 +9,7 @@ Travel Planner Application
   combining several functions into one application that specific for travel would be
   better for people.
   
-Project details
+Project details #3DDC84
 
   Using Android Studio, with unique features that we did not use in the class such as
   “GPS” and “Calendar”.
