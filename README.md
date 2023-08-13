@@ -96,3 +96,5 @@ saved in the database.
 It will take time to develop the application such as GPS real-time tracking, but I
 believe plenty of sources could help hopefully.
 I hope it helps the travelers more comfortable.
+
+<img src="image1.pdf"/>
