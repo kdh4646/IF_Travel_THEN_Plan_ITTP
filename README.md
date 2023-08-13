@@ -115,12 +115,15 @@ travelers more comfortable. Application’s name is “ITTP (IF: Travel THEN: Pl
     ,
     <kbd>
       ListView
-    </kb>
+    </kbd>
     ,
     <kbd>
       Floating Action Button
     </kbd>
-    
+    .
+Created setting options, which include changing background color and languages.
+Chosen to use Google Maps since it provides user friendly functions such as finding fastest way and alternatvie methods to arrive at destination. 
+  
 
 
 This project mainly used database, floating action button, list, calendar, GPS and so
