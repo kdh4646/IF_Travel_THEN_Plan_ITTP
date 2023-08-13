@@ -85,21 +85,11 @@ travelers more comfortable. Application’s name is “ITTP (IF: Travel THEN: Pl
     - Xml - settings preference xml file.
     - Build.gradle (Module: app) - added material for floating action button. (Need to add material for Google GPS)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# ✨ Story Board
+  <p align="center">
+    <img src="image1.jpg"/>
 <img src="image1.jpg"/>
+<img src="image1.jpg"/>
+  </p>
 
 
