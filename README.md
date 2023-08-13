@@ -1,7 +1,6 @@
 # 🏖 IF Travel THEN Plan (ITTP)
-<p>
   Travel Planner Application
-</p>
+
 
 # Introduction
 <div>
