@@ -22,10 +22,14 @@ travelers more comfortable. Application’s name is “ITTP (IF: Travel THEN: Pl
 # 📖 Project details
 
 **I. Application Icon**
+```
   - Red Airplane picture with background color of Ivory.
+```
 
 **II. Welcome Screen**
+```
   - 3 seconds of welcome screen with Application Logo.
+```
 
 **III. Main Screen**
   - Plan button: user makes a new travel plan.
