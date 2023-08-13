@@ -2,7 +2,7 @@
 
 - Travel Planner Application
 
-<div style="left-margin: 50">
+<div hspace="100">
   <picture>
     <img align="center" src="https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white"/>
   </picture>
