@@ -13,23 +13,6 @@
   </picture>
 </div>
 
-![ChatGPT](https://img.shields.io/badge/chatGPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white)
-
-<picture>
-   <source srcset="https://img.shields.io/badge/Android Studio-3DDC84?style=flat&logo=Android Studio&logoColor=white" type="image/webp" media="(min-width: 2800px)">
-   <img src="https://img.shields.io/badge/Android Studio-3DDC84?style=flat&logo=Android Studio&logoColor=white">
-</picture>
-
-
-<picture>
-  <source media="(min-width:650px)" srcset="img_pink_flowers.jpg">
-  <source media="(min-width:465px)" srcset="img_white_flower.jpg">
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white" alt="Flowers" style="width:auto;">
-</picture>
-
-
-
-
 # 🚀 Introduction
 
 - When people plan for travel, they need to use multiple applications such as calendar
