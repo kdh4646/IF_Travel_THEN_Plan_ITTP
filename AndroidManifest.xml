@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="gmu.edu.cs477.ittp">
+
+    <!-- Using Permissions for allowing GPS -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!-- Welcome Activity -->
+        <activity android:name=".WelcomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Main Activity -->
+        <activity android:name=".MainActivity" />
+
+        <!-- Setting Activity -->
+        <activity
+            android:name=".SettingActivity"
+            android:label="Setting"
+            android:theme="@style/Theme.Transparent.Round.Corner" />
+
+        <!-- Plan Title Activity -->
+        <activity
+            android:name=".PlanTitleActivity"
+            android:label="Title"
+            android:theme="@style/Theme.Transparent.Round.Corner" />
+
+        <!-- Plan Calendar Activity -->
+        <activity
+            android:name=".PlanCalendarActivity"
+            android:theme="@style/Theme.Transparent.Round.Corner" />
+
+        <!-- Plan Make Activity -->
+        <activity android:name=".PlanMakeActivity" />
+
+        <!-- Add Plan List Activity -->
+        <activity
+            android:name=".AddPlanListActivity"
+            android:label="Add Plan"
+            android:theme="@style/Theme.Transparent.Round.Corner" />
+
+        <!-- Travel Activity -->
+        <activity android:name=".TravelActivity" />
+
+        <!-- Travel Loading Activity -->
+        <activity android:name=".TravelLoadingActivity" />
+
+        <!-- Travel Edit Activity -->
+        <activity
+            android:name=".TravelEditActivity"
+            android:label="Edit Plan"
+            android:theme="@style/Theme.Transparent.Round.Corner" />
+
+        <!-- History Activity -->
+        <activity android:name=".HistoryActivity" />
+
+        <!-- History View Activity -->
+        <activity android:name=".HistoryViewActivity" />
+    </application>
+
+</manifest>
