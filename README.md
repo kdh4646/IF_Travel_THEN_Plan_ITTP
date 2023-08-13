@@ -1,4 +1,4 @@
-# IF_Travel_THEN_Plan_ITTP
+# <img src="https://img.shields.io/badge/Android Studio-3DDC84?style=flat&logo=Android Studio&logoColor=white"/>IF_Travel_THEN_Plan_ITTP
 Travel Planner Application
 
 # Introduction
