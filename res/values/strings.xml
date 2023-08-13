@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">ITTP</string>
+
+    <!-- Preference Titles -->
+    <string name="general_header">General</string>
+    <string name="notification_header">Notification</string>
+    <string name="about_header">About</string>
+
+    <!-- General Preferences -->
+    <string name="background_title">Background Color</string>
+    <string name="language_title">Language</string>
+
+    <!-- Notification Preferences -->
+    <string name="vibrate_title">Vibrate Mode</string>
+
+    <!-- Vibration Status -->
+    <string name="vibrate_on">On</string>
+    <string name="vibrate_off">Off</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Setting Resources-->
+<resources>
+    <!--Background Color Preference-->
+    <string-array name="background_color_list">
+        <item>Ivory</item>
+        <item>Red</item>
+        <item>Green</item>
+        <item>Blue</item>
+    </string-array>
+
+    <string-array name="background_color_values">
+        <item>color_ivory</item>
+        <item>color_red</item>
+        <item>color_green</item>
+        <item>color_blue</item>
+    </string-array>
+
+    <!--Language Preference-->
+    <string-array name="language_list">
+        <item>English</item>
+        <item>Korean</item>
+    </string-array>
+
+    <string-array name="language_values">
+        <item>en</item>
+        <item>ko</item>
+    </string-array>
+
+</resources>

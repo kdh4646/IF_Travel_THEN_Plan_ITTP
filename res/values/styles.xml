@@ -1,0 +1,42 @@
+<resources>
+
+    <!--Base application theme-->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!--Base Colors-->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--Transparent application theme-->
+    <style name="Theme.Transparent.Round.Corner" parent="Theme.AppCompat">
+        <!--Set Window to Transparent-->
+        <!--Set Background with rounded corner layout-->
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@drawable/round_corner_layout</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+
+        <!--In Plan Calendar: Circle Selected date-->
+        <!--In Setting: Category Colors ex)General-->
+        <!--In Setting: SwitchPreference Color-->
+        <!--In Setting Dialog: Checked Button-->
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <!--In Plan Calendar: Title, Button-->
+        <!--In Setting: Title, Option Name-->
+        <!--In Setting Dialog: Cancel Button, Dialog Title-->
+        <item name="android:textColor">@color/colorWhite</item>
+
+        <!--In Plan Calendar: Year, Month, Day-->
+        <item name="android:textColorPrimary">@color/colorDefault</item>
+
+        <!--In Plan Calendar: Week-->
+        <!--In Setting: Selected Option List-->
+        <!--In Setting Dialog: Unchecked Button-->
+        <item name="android:textColorSecondary">@color/colorDefault</item>
+    </style>
+
+</resources>

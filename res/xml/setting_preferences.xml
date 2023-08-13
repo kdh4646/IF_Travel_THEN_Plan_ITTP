@@ -1,0 +1,68 @@
+<!--
+  ~ Copyright 2018 The app Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<!--
+  ~ Copyright 2019 Do Hyung Kweon
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~ http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--Under General Category-->
+    <PreferenceCategory app:title="@string/general_header"
+        app:key="general_title">
+
+        <!--Background Color Setting-->
+        <ListPreference
+            app:defaultValue="color_ivory"
+            app:entries="@array/background_color_list"
+            app:entryValues="@array/background_color_values"
+            app:key="background_color_preference"
+            app:title="@string/background_title"
+            app:useSimpleSummaryProvider="true"/>
+
+        <!--Language Setting-->
+        <ListPreference
+            app:defaultValue="en"
+            app:entries="@array/language_list"
+            app:entryValues="@array/language_values"
+            app:key="language_preference"
+            app:title="@string/language_title"
+            app:useSimpleSummaryProvider="true"/>
+    </PreferenceCategory>
+
+    <!--Under About Category-->
+    <PreferenceCategory app:title="@string/about_header"
+        app:key="about_title">
+
+        <!--About Text-->
+        <Preference
+            app:key="about_preference"
+            app:summary="Application for helping Travelers \n \n dkweon2@masonlive.gmu.edu"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>
