@@ -2,7 +2,7 @@
 
 Travel Planner Application
 
-# Introduction
+# 🚀 Introduction
 <p>
   When people plan for the travel, they need to use multiple applications such as
   calendar to put schedule, map to find the way to the destination and so on.
