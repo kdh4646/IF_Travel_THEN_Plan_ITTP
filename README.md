@@ -1,15 +1,15 @@
 # 🏖 IF Travel THEN Plan (ITTP)
-  Travel Planner Application
 
+Travel Planner Application
 
 # Introduction
-<div>
+<p>
   When people plan for the travel, they need to use multiple applications such as
   calendar to put schedule, map to find the way to the destination and so on.
   Instead of using multiple applications and swap the screen multiple times,
   combining several functions into one application that specific for travel would be
   better for people.
-</div>
+
   
 Project details
 
@@ -95,3 +95,5 @@ saved in the database.
 It will take time to develop the application such as GPS real-time tracking, but I
 believe plenty of sources could help hopefully.
 I hope it helps the travelers more comfortable.
+
+</p>
