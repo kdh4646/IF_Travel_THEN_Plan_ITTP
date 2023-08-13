@@ -67,7 +67,8 @@ travelers more comfortable. Application’s name is “ITTP (IF: Travel THEN: Pl
     – It contains multiple activities for application and permissions for GPS.
 
   - Activities (java)
-    - AddPlanListActivity - activity for adding or editing plans.
+    - AddPlanListActivity
+      - activity for adding or editing plans.
     2. DatabaseOpenHelper – database helper class.
 
     1. HistoryActivity
