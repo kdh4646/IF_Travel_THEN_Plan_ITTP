@@ -1,7 +1,8 @@
 # 🏖 IF Travel THEN Plan (ITTP)
-<h1>
+<p>
   Travel Planner Application
-</h1>
+</p>
+
 # Introduction
 <div>
   When people plan for the travel, they need to use multiple applications such as
