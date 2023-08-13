@@ -97,9 +97,9 @@ travelers more comfortable. Application’s name is “ITTP (IF: Travel THEN: Pl
 
 # 🎉 Summary
   Project is mainly used
-    <code>
+    <kbd>
       Database
-    </code>
+    </kbd>
     
     <code>
       GPS
