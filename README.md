@@ -35,48 +35,63 @@ travelers more comfortable. Application’s name is “ITTP (IF: Travel THEN: Pl
 
 **IV. Plan button**
   1. User asked to enter the title. (Title should be unique, no duplicate)
-  1. Choose the Start Date.
-  1. Choose the End Date. (End Date only allows before or same with the
+  2. Choose the Start Date.
+  3. Choose the End Date. (End Date only allows before or same with the
   Start Date)
-  1. Plan page appears with each date. User can go back/forward with the
+  4. Plan page appears with each date. User can go back/forward with the
   buttons to change date and able to add/edit/delete plans.
-  1. After finish planning go back to Main Screen.
+  5. After finish planning go back to Main Screen.
   
 **V. Travel button**
-  i. Track the lists of travel that user made.
-  ii. On Click, saved travel plans data popped up and user can fix data or
+  1. Track the lists of travel that user made.
+  2. On Click, saved travel plans data popped up and user can fix data or
   start the plan.
-  iii. When “START” button is clicked, GPS opens based on location address
+  3. When “START” button is clicked, GPS opens based on location address
   that user entered, and after finishing the plan, user can set plan to
   “DONE” status.
-  iv. After finishing all plans, travel deleted from the travel list and go to the
+  4. After finishing all plans, travel deleted from the travel list and go to the
   history list.
   
 **VI. History button**
-  i. User can see finished travels.
-  ii. It shows all information of selected history. For example, when, where,
+  1. User can see finished travels.
+  2. It shows all information of selected history. For example, when, where,
   specific notes and whether that plan was finished or not.
   
 **VII.Setting button**
-  i. User can change the background color. (Ivory: default, Red, Green and
+  1. User can change the background color. (Ivory: default, Red, Green and
   Blue)
-  ii. User can change the language. (English: default and Korean)
-System Components
-AndroidManifest.xml – It contains multiple activities for application and
-permissions for GPS.
-Activities (java):
-AddPlanListActivity – activity for adding or editing plans.
-DatabaseOpenHelper – database helper class.
-HistoryActivity – activity for showing history.
-MainActivity – activity for main screen.
-PlanCalendarActivity – activity for calendar activity.
-PlanMakeActivity – activity for managing plans.
-PlanTitleActivity – activity for making title.
-SettingActivity – activity for settings.
-TravelActivity – activity for showing travel lists.
-TravelEditActivity – activity for editing travel.
-TravelLoadingActivity – activity for loading saved travel.
-WelcomeActivity – activity for welcome screen.
+  2. User can change the language. (English: default and Korean)
+
+# 🏆 System Components
+  - AndroidManifest.xml
+    – It contains multiple activities for application and permissions for GPS.
+
+  - Activities (java)
+    1. AddPlanListActivity
+      – activity for adding or editing plans.
+    2. DatabaseOpenHelper
+      – database helper class.
+    4. HistoryActivity
+      – activity for showing history.
+    6. MainActivity
+      – activity for main screen.
+    8. PlanCalendarActivity
+      – activity for calendar activity.
+    10. PlanMakeActivity
+      – activity for managing plans.
+    12. PlanTitleActivity
+      – activity for making title.
+    14. SettingActivity
+      – activity for settings.
+    16. TravelActivity
+      – activity for showing travel lists.
+    18. TravelEditActivity
+      – activity for editing travel.
+    19. TravelLoadingActivity
+      – activity for loading saved travel.
+    21. WelcomeActivity
+      – activity for welcome screen.
+
 Drawable: including graphics for application icon, buttons icon and so on.
 Layout: supporting all activities with portrait/landscape mode. Used linearlayouts
 and constraintlayout.
