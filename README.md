@@ -96,7 +96,7 @@ travelers more comfortable. Application’s name is “ITTP (IF: Travel THEN: Pl
   </p>
 
 # 🎉 Summary
-  Project is mainly used
+  - Project is mainly used
     <kbd>
       Database
     </kbd>
@@ -121,24 +121,8 @@ travelers more comfortable. Application’s name is “ITTP (IF: Travel THEN: Pl
       Floating Action Button
     </kbd>
     .
-Created setting options, which include changing background color and languages.
-Chosen to use Google Maps since it provides user friendly functions such as finding fastest way and alternatvie methods to arrive at destination. 
-  
-
-
-This project mainly used database, floating action button, list, calendar, GPS and so
-on.
-Everything is done. I choose to use Google Maps to navigate and search the route
-and location since it contains fastest way function, provides alternative methods to arrive
-destination such as subways, buses and so on and user friendly.
-Tests are successfully done. I used and tested application when I traveled, and it
-worked fine.
-
-
-Travel Planner Application ITTP, Mobile Application Development December 2019
- Developed Travel Planner Application, IF: Travel THEN: Plan (ITTP), using Android Studio with Java.
- Implemented Database, GPS, Cursor, ListView, and Floating Action Button to control main functions.
- Created setting options, which include changing background colors and languages
+- Created setting options, which include changing background color and languages.
+- Opt for Google Maps as it offers user-friendly functions such as locating the fastest route and suggesting alternative methods to reach users' destination.
 
 # 🪄 LICENSE
 
