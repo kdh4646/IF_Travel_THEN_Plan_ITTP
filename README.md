@@ -68,22 +68,22 @@ travelers more comfortable. Application’s name is “ITTP (IF: Travel THEN: Pl
 
   - Activities (java)
     - [AddPlanListActivity](java/gmu/edu/cs477/ittp/AddPlanListActivity.java) - activity for adding or editing plans.
-    - DatabaseOpenHelper – database helper class.
-    - HistoryActivity – activity for showing history.
-    - MainActivity – activity for main screen.
-    - PlanCalendarActivity – activity for calendar activity.
-    - PlanMakeActivity – activity for managing plans.
-    - PlanTitleActivity – activity for making title.
-    - SettingActivity – activity for settings.
-    - TravelActivity – activity for showing travel lists.
-    - TravelEditActivity – activity for editing travel.
-    - TravelLoadingActivity – activity for loading saved travel.
-    - WelcomeActivity – activity for welcome screen.
-    - Drawable - including graphics for application icon, buttons icon and so on.
-    - Layout - supporting all activities with portrait/landscape mode. Used linearlayouts and constraintlayout.
-    - Values -settings preference array values, colors and styles. Also button backgrounds are included.
-    - Xml - settings preference xml file.
-    - Build.gradle (Module: app) - added material for floating action button and Google GPS.
+    - [DatabaseOpenHelper](java/gmu/edu/cs477/ittp/DatabaseOpenHelper.java) – database helper class.
+    - [HistoryActivity](java/gmu/edu/cs477/ittp/HistoryActivity.java) – activity for showing history.
+    - [MainActivity](java/gmu/edu/cs477/ittp/MainActivity.java) – activity for main screen.
+    - [PlanCalendarActivity](java/gmu/edu/cs477/ittp/PlanCalendarActivity.java) – activity for calendar activity.
+    - [PlanMakeActivity](java/gmu/edu/cs477/ittp/PlanMakeActivity.java) – activity for managing plans.
+    - [PlanTitleActivity](java/gmu/edu/cs477/ittp/PlanTitleActivity.java) – activity for making title.
+    - [SettingActivity](java/gmu/edu/cs477/ittp/SettingActivity.java) – activity for settings.
+    - [TravelActivity](java/gmu/edu/cs477/ittp/TravelActivity.java) – activity for showing travel lists.
+    - [TravelEditActivity](java/gmu/edu/cs477/ittp/TravelEditActivity.java) – activity for editing travel.
+    - [TravelLoadingActivity](java/gmu/edu/cs477/ittp/TravelLoadingActivity.java) – activity for loading saved travel.
+    - [WelcomeActivity](java/gmu/edu/cs477/ittp/WelcomeActivity.java) – activity for welcome screen.
+    - [Drawable](res/drawable) - including graphics for application icon, buttons icon and so on.
+    - [Layout](res/layout) - supporting all activities with portrait/landscape mode. Used linearlayouts and constraintlayout.
+    - [Values](res/values) -settings preference array values, colors and styles. Also button backgrounds are included.
+    - [Xml](res/xml) - settings preference xml file.
+    - [Build.gradle (Module: app)](build.gradle) - added material for floating action button and Google GPS.
 
 # ✨ Story Board
   > [!NOTE]
