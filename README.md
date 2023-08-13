@@ -63,7 +63,7 @@ travelers more comfortable. Application’s name is “ITTP (IF: Travel THEN: Pl
   2. User can change the language. (English: default and Korean)
 
 # 🏆 System Components
-  - AndroidManifest.xml
+  - [AndroidManifest.xml](AndroidManifest.xml)
     – It contains multiple activities for application and permissions for GPS.
 
   - Activities (java)
