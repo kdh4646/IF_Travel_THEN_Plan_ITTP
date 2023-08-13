@@ -32,10 +32,12 @@ travelers more comfortable. Application’s name is “ITTP (IF: Travel THEN: Pl
 ```
 
 **III. Main Screen**
+```
   - Plan button: user makes a new travel plan.
   - Travel button: user starts a travel plan that user chosen.
   - History button: user can see the history of finished travel.
   - Setting button: user can either change the background color of Application or language and vibration mode.
+```
 
 **IV. Plan button**
   i. User asked to enter the title. (Title should be unique, no duplicate)
