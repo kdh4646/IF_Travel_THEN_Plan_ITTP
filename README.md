@@ -22,31 +22,25 @@ travelers more comfortable. Application’s name is “ITTP (IF: Travel THEN: Pl
 # 📖 Project details
 
 **I. Application Icon**
-```
   - Red Airplane picture with background color of Ivory.
-```
 
 **II. Welcome Screen**
-```
   - 3 seconds of welcome screen with Application Logo.
-```
 
 **III. Main Screen**
-```
   - Plan button: user makes a new travel plan.
   - Travel button: user starts a travel plan that user chosen.
   - History button: user can see the history of finished travel.
   - Setting button: user can either change the background color of Application or language and vibration mode.
-```
 
 **IV. Plan button**
-  i. User asked to enter the title. (Title should be unique, no duplicate)
-  ii. Choose the Start Date.
-  iii. Choose the End Date. (End Date only allows before or same with the
+  1. User asked to enter the title. (Title should be unique, no duplicate)
+  1. Choose the Start Date.
+  1. Choose the End Date. (End Date only allows before or same with the
   Start Date)
-  iv. Plan page appears with each date. User can go back/forward with the
+  1. Plan page appears with each date. User can go back/forward with the
   buttons to change date and able to add/edit/delete plans.
-  v. After finish planning go back to Main Screen.
+  1. After finish planning go back to Main Screen.
   
 **V. Travel button**
   i. Track the lists of travel that user made.
