@@ -19,7 +19,7 @@ to add schedule, map to find the way to the destination and so on. Instead of tu
 on multiple applications, combining useful functions into one application to help
 travelers more comfortable. Application’s name is “ITTP (IF: Travel THEN: Plan)”.
 
-# Project details
+# 📖 Project details
 
 
 
