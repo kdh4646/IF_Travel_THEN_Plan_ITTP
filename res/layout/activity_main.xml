@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_activity_background_default"
+    tools:context=".MainActivity">
+
+    <!--PLAN Button-->
+    <Button
+        android:id="@+id/plan_button"
+        android:onClick="gotoPlan"
+        android:layout_width="246dp"
+        android:layout_height="62dp"
+        android:background="@drawable/round_button_main"
+        android:drawableLeft="@mipmap/ic_planbutton"
+        android:drawablePadding="45dp"
+        android:fontFamily="casual"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:text="Plan"
+        android:textColor="#FFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.113"/>
+
+    <!--TRAVEL Button-->
+    <Button
+        android:id="@+id/travel_button"
+        android:onClick="gotoTravel"
+        android:layout_width="246dp"
+        android:layout_height="62dp"
+        android:background="@drawable/round_button_main"
+        android:drawableLeft="@mipmap/ic_travelbutton"
+        android:drawablePadding="45dp"
+        android:fontFamily="casual"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:text="Travel"
+        android:textColor="#FFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.245"/>
+
+    <!--HISTORY Button-->
+    <Button
+        android:id="@+id/history_button"
+        android:onClick="gotoHistory"
+        android:layout_width="246dp"
+        android:layout_height="62dp"
+        android:background="@drawable/round_button_main"
+        android:drawableLeft="@mipmap/ic_historybutton"
+        android:drawablePadding="45dp"
+        android:fontFamily="casual"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:text="History"
+        android:textColor="#FFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.372"/>
+
+    <!--Application Name Text-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="IF: Travel \n \t THEN: Plan"
+        android:textColor="#FF000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.551"/>
+
+    <!--Application Logo-->
+    <ImageView
+        android:layout_width="92dp"
+        android:layout_height="102dp"
+        android:src="@mipmap/ic_launcher"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.737"/>
+
+    <!--Setting Button-->
+    <Button
+        android:id="@+id/setting_button"
+        android:onClick="gotoSetting"
+        android:layout_width="246dp"
+        android:layout_height="62dp"
+        android:background="@drawable/round_button_main"
+        android:drawableLeft="@mipmap/ic_settingbutton"
+        android:drawablePadding="45dp"
+        android:fontFamily="casual"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:text="Setting"
+        android:textColor="#FFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.919"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

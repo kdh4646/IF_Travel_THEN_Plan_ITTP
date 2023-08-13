@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_historyview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/main_activity_background_default">
+
+    <!--"< History Travel Name >" TextView-->
+    <TextView
+        android:id="@+id/history_travel_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="\u003c History Travel Name \u003e"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorWhite"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:background="@drawable/round_button_sub"/>
+
+    <!--Start Date to End Date TextView-->
+    <TextView
+        android:id="@+id/history_from_to"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="mm/dd/yyyy - mm/dd/yyyy"
+        android:textSize="20sp"/>
+
+    <!--Days and Nights TextView-->
+    <TextView
+        android:id="@+id/history_days_nights"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="n days (m nights)"
+        android:textSize="20sp"/>
+
+    <!--Default for No Plan-->
+    <TextView
+        android:id="@+id/history_default_listview_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="No Plans !"
+        android:textSize="40sp"/>
+
+    <!--All Information ListView-->
+    <ListView
+        android:id="@+id/history_all_information_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+
+</LinearLayout>

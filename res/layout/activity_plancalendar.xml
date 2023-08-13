@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--Choose Start Date TextView-->
+    <!--Choose End Date TextView-->
+    <TextView
+        android:id="@+id/choose_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+        android:text="Choose Start Date"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:fontFamily="casual"/>
+
+    <!--Calendar View-->
+    <CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!--PREVIOUS Button-->
+        <Button
+            android:id="@+id/previous_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_button_sub"
+            android:layout_weight="1"
+            android:text="PREVIOUS"
+            android:onClick="gotoPrevious"/>
+
+        <!--NEXT Button-->
+        <Button
+            android:id="@+id/next_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_button_sub"
+            android:layout_weight="1"
+            android:text="NEXT"
+            android:onClick="gotoNext"/>
+    </LinearLayout>
+</LinearLayout>

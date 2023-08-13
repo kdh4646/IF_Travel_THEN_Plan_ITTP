@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal">
+
+        <!--Schedule Name TextView-->
+        <TextView
+            android:id="@+id/schedule_name_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\u2713 Schedule Name: "
+            android:textSize="15sp"/>
+
+        <!--Schedule Name EditText-->
+        <EditText
+            android:id="@+id/travel_schedule_info"
+            android:layout_width="215dp"
+            android:layout_height="wrap_content"
+            android:hint="enter schedule"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal">
+
+        <!--Location Address TextView-->
+        <TextView
+            android:id="@+id/address_info_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\u2713 Location Address: "
+            android:textSize="15sp"/>
+
+        <!--Location Address EditText-->
+        <EditText
+            android:id="@+id/travel_address_info"
+            android:layout_width="203dp"
+            android:layout_height="wrap_content"
+            android:hint="enter address"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal">
+
+        <!--Notes TextView-->
+        <TextView
+            android:id="@+id/notes_info_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\u2713 Notes: "
+            android:textSize="15sp"/>
+
+        <!--Notes EditText-->
+        <EditText
+            android:id="@+id/travel_extra_note"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:hint="enter notes"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!--DELETE or CANCEL Button-->
+        <Button
+            android:id="@+id/delete_travelplan_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_button_sub"
+            android:layout_weight="1"
+            android:text="DELETE"
+            android:onClick="gotoDeletePlan"/>
+
+        <!--EDIT or ADD Button-->
+        <Button
+            android:id="@+id/edit_travelplan_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_button_sub"
+            android:layout_weight="1"
+            android:text="EDIT"
+            android:onClick="gotoEditPlan"/>
+    </LinearLayout>
+
+</LinearLayout>

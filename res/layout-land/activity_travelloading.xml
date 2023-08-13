@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_travelloading"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/main_activity_background_default">
+
+    <!--Travel Title TextView-->
+    <TextView
+        android:id="@+id/loading_travel_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="travel name"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:fontFamily="casual"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="433dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <!--Date TextView-->
+            <TextView
+                android:id="@+id/loading_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_button_sub"
+                android:text="\u003c mm/dd/yyyy \u003e"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textColor="@android:color/white"/>
+
+            <!--Default for No Plan-->
+            <TextView
+                android:id="@+id/loading_default_listview_text"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="No Plans !"
+                android:textSize="40sp"/>
+
+            <!--Specific Date ListView-->
+            <ListView
+                android:id="@+id/loading_plan_listview"
+                android:layout_width="match_parent"
+                android:layout_height="440dp"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+        <!--Dots represents-->
+        <LinearLayout
+            android:id="@+id/loading_dots"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:gravity="center_vertical|center_horizontal"
+            android:orientation="vertical"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!--PREVIOUS button-->
+            <Button
+                android:id="@+id/loading_previous_slide_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/round_button_sub"
+                android:onClick="gotoPreviousSlide"
+                android:text="PREVIOUS"
+                android:textColor="@android:color/white"/>
+
+            <!--Floating Action Button-->
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/loading_fab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:layout_marginTop="80dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginBottom="80dp"
+                android:onClick="gotoAdd"
+                android:src="@drawable/ic_add_white"
+                app:borderWidth="0dp"
+                app:elevation="6dp"
+                app:fabSize="mini"/>
+
+            <!--NEXT button-->
+            <Button
+                android:id="@+id/loading_next_slide_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/round_button_sub"
+                android:onClick="gotoNextSlide"
+                android:text="NEXT"
+                android:textColor="@android:color/white"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

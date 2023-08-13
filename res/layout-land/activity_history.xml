@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_history"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/main_activity_background_default">
+
+    <!--"< History >" TextView-->
+    <TextView
+        android:id="@+id/history_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="\u003c History \u003e"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorWhite"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:background="@drawable/round_button_sub"/>
+
+    <!--Default for No History-->
+    <TextView
+        android:id="@+id/default_history_text"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="No History !"
+        android:textSize="40sp"/>
+
+    <!--Travel List-->
+    <ListView
+        android:id="@+id/history_travel_list"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_weight="1"/>
+
+    <!--Application Logo-->
+    <ImageView
+        android:layout_width="92dp"
+        android:layout_height="102dp"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:src="@mipmap/ic_launcher"/>
+
+</LinearLayout>

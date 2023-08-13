@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_planmake"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/main_activity_background_default">
+
+    <!--Travel Title TextView-->
+    <TextView
+        android:id="@+id/travel_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="travel name"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:fontFamily="casual"/>
+
+    <!--Start Date to End Date TextView-->
+    <TextView
+        android:id="@+id/from_to"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="mm/dd/yyyy - mm/dd/yyyy"
+        android:textSize="20sp"/>
+
+    <!--Days and Nights TextView-->
+    <TextView
+        android:id="@+id/days_nights"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="n days (m nights)"
+        android:textSize="20sp"/>
+
+    <!--Specific Date for Plan TextView-->
+    <TextView
+        android:id="@+id/specific_date_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_button_sub"
+        android:text="\u003c mm/dd/yyyy \u003e"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"/>
+
+    <!--Default for No Plan-->
+    <TextView
+        android:id="@+id/default_listview_text"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="No Plans !"
+        android:textSize="40sp"/>
+
+    <!--Specific Date ListView-->
+    <ListView
+        android:id="@+id/specific_date_listview"
+        android:layout_width="match_parent"
+        android:layout_height="360dp"
+        android:layout_weight="1"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!--Dots represents-->
+        <LinearLayout
+            android:id="@+id/dots"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="55dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical|center_horizontal"
+            android:orientation="horizontal"/>
+
+        <!--Floating Action Button-->
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="8dp"
+            android:src="@drawable/ic_add_white"
+            app:elevation="6dp"
+            app:borderWidth="0dp"
+            app:fabSize="mini"
+            android:onClick="gotoAdd"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <!--PREVIOUS button-->
+        <Button
+            android:id="@+id/previous_slide_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="left|end"
+            android:text="PREVIOUS"
+            android:background="@drawable/round_button_sub"
+            android:textColor="@android:color/white"
+            android:onClick="gotoPreviousSlide"/>
+
+        <!--NEXT button-->
+        <Button
+            android:id="@+id/next_slide_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="right|end"
+            android:text="NEXT"
+            android:background="@drawable/round_button_sub"
+            android:textColor="@android:color/white"
+            android:onClick="gotoNextSlide"/>
+    </LinearLayout>
+
+</LinearLayout>
