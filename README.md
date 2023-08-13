@@ -1,9 +1,9 @@
 # 🏖 IF Travel THEN Plan (ITTP) 🏖
 
-Travel Planner Application
+- Travel Planner Application
 
 # 🚀 Introduction
-When people plan for the travel, they need to use multiple applications such as
+- When people plan for the travel, they need to use multiple applications such as
 calendar to put schedule, map to find the way to the destination and so on.
 Instead of using multiple applications and swap the screen multiple times,
 combining several functions into one application that specific for travel would be
