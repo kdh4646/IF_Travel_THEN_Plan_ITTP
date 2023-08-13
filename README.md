@@ -1,7 +1,7 @@
 # 🏖 IF Travel THEN Plan (ITTP) 🏖
-<div>
-- Travel Planner Application
 
+- Travel Planner Application
+<div>
   <picture>
     <img src="https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white"/>
   </picture>
