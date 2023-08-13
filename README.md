@@ -1,4 +1,4 @@
-# 🏖 IF_Travel_THEN_Plan_ITTP
+# 🏖 IF Travel THEN Plan (ITTP)
 <h1>
   Travel Planner Application
 </h1>
