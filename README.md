@@ -83,13 +83,32 @@ travelers more comfortable. Application’s name is “ITTP (IF: Travel THEN: Pl
     - Layout - supporting all activities with portrait/landscape mode. Used linearlayouts and constraintlayout.
     - Values -settings preference array values, colors and styles. Also button backgrounds are included.
     - Xml - settings preference xml file.
-    - Build.gradle (Module: app) - added material for floating action button. (Need to add material for Google GPS)
+    - Build.gradle (Module: app) - added material for floating action button and Google GPS.
 
 # ✨ Story Board
+  > [!NOTE]
+  > Below Story Boards are ONLY showing Portarit Mode. (Landsacpe Mode is also available)
+
   <p align="center">
     <img src="image1.jpg"/>
     <img src="image2.jpg"/>
     <img src="image3.jpg"/>
   </p>
 
+# 🎉 Summary
+  Project is 
+
+This project mainly used database, floating action button, list, calendar, GPS and so
+on.
+Everything is done. I choose to use Google Maps to navigate and search the route
+and location since it contains fastest way function, provides alternative methods to arrive
+destination such as subways, buses and so on and user friendly.
+Tests are successfully done. I used and tested application when I traveled, and it
+worked fine.
+
+
+Travel Planner Application ITTP, Mobile Application Development December 2019
+ Developed Travel Planner Application, IF: Travel THEN: Plan (ITTP), using Android Studio with Java.
+ Implemented Database, GPS, Cursor, ListView, and Floating Action Button to control main functions.
+ Created setting options, which include changing background colors and languages
 
