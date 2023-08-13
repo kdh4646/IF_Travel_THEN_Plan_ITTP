@@ -96,13 +96,32 @@ travelers more comfortable. Application’s name is “ITTP (IF: Travel THEN: Pl
   </p>
 
 # 🎉 Summary
-  Project is 
-
-  <p>
+  Project is mainly used
     <code>
-      database test
+      Database
     </code>
-  </p>
+    
+    <code>
+      GPS
+    </code>
+    
+    <code>
+      Calendar
+    </code>
+    
+    <code>
+      Cursor
+    </code>
+    
+    <code>
+      ListView
+    </code>
+
+    <code>
+      Floating Action Button
+    </code>
+    
+
 
 This project mainly used database, floating action button, list, calendar, GPS and so
 on.
@@ -118,7 +137,7 @@ Travel Planner Application ITTP, Mobile Application Development December 2019
  Implemented Database, GPS, Cursor, ListView, and Floating Action Button to control main functions.
  Created setting options, which include changing background colors and languages
 
-# ?? LICENSE
+# 🪄 LICENSE
 
 ```
 Copyright 2019 Do Hyung Kweon
