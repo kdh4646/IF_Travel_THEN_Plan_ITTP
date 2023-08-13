@@ -1,7 +1,7 @@
 # 🏖 IF Travel THEN Plan (ITTP) 🏖
 
 - Travel Planner Application
-> test
+> [ITTP.apk DOWNLOAD](https://downgit.github.io/#/home?url=https://github.com/kdh4646/IF_Travel_THEN_Plan_ITTP/blob/main/ITTP.apk)
 
 <div>
   <picture>
