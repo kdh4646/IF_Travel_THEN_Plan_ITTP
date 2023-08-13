@@ -3,7 +3,7 @@
 - Travel Planner Application
 
 <picture>
-  <img hspace="15" src="https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white"/>
+  <img hspace="20" src="https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white"/>
 </picture>
 
 <picture>
