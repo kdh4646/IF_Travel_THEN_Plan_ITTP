@@ -11,9 +11,8 @@ Travel Planner Application
   </div>
   
 Project details #3DDC84
-<h1> #3DDC84</h1>
 
-<img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=white"/>
+<img src="https://img.shields.io/badge/Android Studio-3DDC84?style=flat-square&logo=Android Studio&logoColor=white"/>
 
   Using Android Studio, with unique features that we did not use in the class such as
   “GPS” and “Calendar”.
