@@ -97,4 +97,6 @@ It will take time to develop the application such as GPS real-time tracking, but
 believe plenty of sources could help hopefully.
 I hope it helps the travelers more comfortable.
 
-<img src="image1.pdf"/>
+[image3.pdf](https://github.com/kdh4646/IF_Travel_THEN_Plan_ITTP/files/12328861/image3.pdf)
+[image2.pdf](https://github.com/kdh4646/IF_Travel_THEN_Plan_ITTP/files/12328860/image2.pdf)
+[image1.pdf](https://github.com/kdh4646/IF_Travel_THEN_Plan_ITTP/files/12328859/image1.pdf)
